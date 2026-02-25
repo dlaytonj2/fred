@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Battleship</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="menu" id="menu">
+        <h1>Battleship: 3D Command</h1>
+        <p>Sink all enemy ships before they sink yours.</p>
+        <p class="controls">
+          Click a cell on the enemy ocean to fire.<br />
+          Press <strong>R</strong> to restart and <strong>F</strong> for fullscreen.
+        </p>
+        <button id="start-btn">Start Battle</button>
+      </section>
+      <canvas id="game-canvas" width="1200" height="760" aria-label="3D Battleship game canvas"></canvas>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
